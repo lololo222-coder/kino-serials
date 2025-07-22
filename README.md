@@ -19,3 +19,6 @@
 - JavaScript (Service Worker)
 - PWA (Manifest, Offline caching)
 
+git add .
+git commit -m "Fix start_url and file structure"
+git push origin main

@@ -1,0 +1,47 @@
+<html>
+
+<head>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#5a4a4f">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Абатурова АИ-24-02</title>
+<link rel="stylesheet" type="text/css" href="stil.css">
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+
+<body>
+	<header>
+		<img src="https://cdn1.ntv.com.tr/gorsel/Px-BFr_kf0KTv80Zv5CLtA.jpg?width=952&height=540&mode=both&scale=both" width="310" align="left">
+		<h1 align="center">Здесь вы можете найти подборку нескольких фильмов и сериалов. Наслаждайтесь.</h1><br>
+	</header>
+	<div id="content">
+	<div id="menu">
+	<ul>
+	<li><a href="main.html">Главная</a></li>
+	<li><a href="film.html">Фильмы</a></li>
+	<li><a href="serial.html">Сериалы</a></li>
+	</div>
+	<div id="article">
+	</div>
+		<p>Фильмы и сериалы важны, поскольку они являются формой искусства, которая предоставляет нам возможность развлечения, образования, сопереживания и самопознания. 
+		Они позволяют нам: погружаться в другие миры, испытывать широкий спектр эмоций, узнавать о разных культурах и эпохах, а также понимать сложные жизненные ситуации через призму чужого опыта. </p>
+		Поэтому мы сделали для вас небольшой сборник фильмов и сериалов, которые точно стоит посмотреть!
+	</div>
+<script>
+	if ('serviceWorker' in navigator) {
+		window.addEventListener('load', () => {
+		navigator.serviceWorker.register('/service-worker.js')
+		.then(registration => {
+			console.log('ServiceWorker registration successful');
+		})
+		.catch(err => {
+			console.log('ServiceWorker registration failed: ', err);
+		});
+    });
+  }
+</script>
+</body>
+
+</html> 

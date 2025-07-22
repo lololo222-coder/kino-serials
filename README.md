@@ -10,8 +10,8 @@
 - `icon-512x512.png` - Иконка приложения
 
 ##Ссылки
-- [Открыть приложение][(https://lololo222-coder.github.io/kino-serials/main.html)]
-- [Исходный код][(https://github.com/lololo222-coder/kino-serials)]
+- [Открыть приложение](https://lololo222-coder.github.io/kino-serials/main.html)
+- [Исходный код](https://github.com/lololo222-coder/kino-serials)
 
 ##Технологии
 - HTML5
